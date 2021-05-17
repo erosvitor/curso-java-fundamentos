@@ -1,7 +1,7 @@
-# JavaFundamentos
+# JavaFundamentosCurso
 
 ## Descrição
-O **JavaFundamentos** é um projeto em forma de curso que reúne tópicos sobre os fundamentos da linguagem Java.
+O **JavaFundamentosCurso** é um projeto em forma de curso que reúne tópicos sobre os fundamentos da linguagem Java.
 
 O projeto contempla teoria, exemplos, exercícios e respostas. É ideal para ser utilizado por professores e instrutores da linguagem Java.
 
