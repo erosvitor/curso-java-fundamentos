@@ -1,0 +1,14 @@
+
+ENTRADA DE DADOS
+
+
+Introdução
+  
+Entrada de dados é a operação que consiste em receber dados do usuário. Normalmente
+a entrada padrão é o teclado, mas pode ser um arquivo em disco ou um outro dispositivo
+qualquer.
+  
+A Linguagem Java disponibiliza o comando 'Scanner' para receber dados do usuário.
+O comando 'Scanner' foi adicionado na versão 1.5 e possibilita a entrada de diversos
+tipos de dados.
+     

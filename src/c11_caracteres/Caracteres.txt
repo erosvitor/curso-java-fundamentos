@@ -1,0 +1,19 @@
+
+CARACTERES
+
+
+Introdução
+
+Um caractere é um símbolo gráfico utilizado para formar um determinado dado.
+  
+  
+Tipos de caracteres
+  
+A Linguagem Java oferece os seguintes recursos para identificação dos tipos de caracteres:
+  
+  Character.isAlphabetic
+  Character.isLetter
+  Character.isLowerCase
+  Character.isUpperCase
+  Character.isDigit
+  Character.isWhitespace

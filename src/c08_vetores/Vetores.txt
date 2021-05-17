@@ -1,0 +1,13 @@
+
+VETORES
+  
+  
+Introdução
+  
+Na Informática, vetores são estruturas unidimensionais utilizadas para armazenar uma quantidade
+finita de dados do mesmo tipo.
+    
+Na Linguagem Java os vetores são definidos da seguinte maneira:
+  
+  <tipo-dado> <nome-vetor>[] = new <tipo-dado>[<quantidade>];
+    

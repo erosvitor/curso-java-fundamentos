@@ -1,0 +1,45 @@
+
+Strings - Exercícios
+----------------------------------------------------------------------------------------------------
+
+Exercício 01 - Login Válido
+
+Criar um programa que solicite um login e verifique se o login é válido. O login será válido ser for
+diferente de branco. Exibir a mensagem 'Login Válido' caso o login seja diferente de branco, caso
+contrário, exibir a mensagem 'Login inválido'.
+
+
+Exercício 02 - Primeiro Nome
+
+Criar um programa que solicite o nome completo do usuário e depois mostre na tela o primeiro nome do
+usuário.
+
+
+Exercício 03 - Substituições
+
+Criar um programa que armazene o texto abaixo num variável e depois faça as substituições necessárias
+para que o texto possa ser importado por um outro programa.
+
+  Texto que deve ser armazenado
+
+    0001;Siclano Pereira Alves;10-05-2000;(41)998885453;siclano@gmail.com
+
+  Substituições:
+  
+    - Remover os parênteses do código de área do telefone
+    - Substituir os caracteres '-' da data pelo caractere '/'
+    - Converter todo o texto para maiúsculo
+    
+
+Exercício 04 - Lista de Emails
+
+Criar um programa que prepare uma lista de emails para uma mala direta. O programa deverá armazenar as
+linhas abaixo num vetor, extrair de cada linha o email e armazenar num outro vetor. O programa
+deverá mostrar na tela a lista de email processada.
+
+  Beltrano da Silva;beltrano@gmail.com
+  Siclano Goncalves;siclano@yahoo.com.br
+  Fulano Pereira Alves;fulanoalves@gmail.com
+  Alvarenga Pedroso;pedroso@hotmail.com
+  
+

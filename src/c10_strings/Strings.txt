@@ -1,0 +1,7 @@
+
+STRINGS
+
+
+Introdução
+
+Uma string na Linguagem Java é uma sequencia de caracteres delimitados por aspas dupla.

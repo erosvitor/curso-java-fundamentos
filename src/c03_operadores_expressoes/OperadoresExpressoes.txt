@@ -1,0 +1,13 @@
+
+OPERADORES E EXPRESSÕES
+
+
+Introdução
+
+Um operador é um símbolo gráfico utilizado na construção de expressões aritméticas. Os 
+operadores disponíveis na Linguagem Java são:
+    
+  Operador de atribuição (=)
+  Operadores aritméticos (+, -, *, /, %)
+  Operadores de incremento e decremento (++, --)
+  Operadores compactos (+=, -=, *=, /=, %=)

@@ -1,0 +1,40 @@
+
+Variáveis e Tipos Dados - Exercícios - RESPOSTAS
+----------------------------------------------------------------------------------------------------
+
+Exercício 01 
+
+Sobre variáveis e tipos de dados na linguagem Java, marque com V as sentenças verdadeiras e com F as
+sentenças falsas.
+
+( V ) Um identificador de variável pode começar pelo caractere $ 
+( V ) É possível misturar letras e números após o primeiro caractere válido
+( V ) O caractere underline pode ser utilizado para iniciar um nome de variável 
+( F ) A linguagem Java não faz diferença entre letras maiúsculas e letras minúsculas 
+( F ) É possível utilizar espaço em branco para separar um identificador composto
+
+
+Exercício 02 
+
+Marque com V os identificadores válidos e com I os identificadores inválidos. 
+
+( V ) abc      ( I ) 3abc      ( V ) a 
+( I ) 123a     ( I ) a?B       ( V ) acdl 
+( I ) _        ( V ) A_a       ( I ) 1 
+( V ) Al23     ( V ) _1        ( V ) A_$_ 
+( V ) $var     ( V ) _$        ( V ) b3l2 
+( I ) AB.DE    ( I ) etc...    ( I ) guarda-chuva
+
+
+Exercício 03
+
+Com suas palavras, descreva o que é uma variável?
+
+R: Espaço na memória do computador para armazenar dados.
+
+
+Exercício 04
+
+Quais os tipos de dados primitivos da linguagem Java?
+
+R: char, byte, short, int, long, float, double e boolean

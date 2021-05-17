@@ -1,0 +1,56 @@
+
+ESTRUTURAS DE REPETIÇÃO
+
+
+Introdução
+  
+Estruturas de repetição são blocos de comandos que permitem ao programa de computador executar
+um conjunto de comandos de forma repetitiva. A quantidade de repetições será determina pelo 
+resultado da avaliação de uma expressão lógica. Os comandos serão executados enquanto a expressão
+lógica resultar o valor verdadeiro.
+  
+As estruturas de repetição disponíveis na Linguagem Java são:
+  
+  FOR
+  WHILE
+  DO..WHILE
+
+
+Estrutura de repetição 'FOR'
+  
+A estrutura de repetição FOR é utilizada quando tem-se a quantidade exata de vezes que um
+determinado conjunto de comandos deve ser repetido. É ideal para manipular vetores e 
+matrizes.
+  
+A sintaxe da estrutura de repetição FOR é a seguinte:
+  
+  for (<contador>; <condição-lógica>; <incremento|decremento>) {
+   
+  }
+  
+  
+Estrutura de repetição 'WHILE'
+
+A estrutura de repetição WHILE é utilizada quando não se tem a quantidade exata de vezes
+que um determinado conjunto de instruções deve ser repetido. É ideal para receber entradas
+do usuário e leitura de arquivos em disco.
+    
+A sintaxe da estrutura de repetição WHILE é a seguinte:
+    
+  while (<condição-lógica>) {
+      
+  }
+
+
+Estrutura de repetição 'DO..WHILE'
+
+A estrutura de repetição DO..WHILE é utilizada quando o conjunto de instruções deve ser
+executado pelo menos uma vez. É ideal para a escolha de itens de um determinado menu de
+opções.
+    
+A sintaxe da estrutura de repetição DO..WHILE é a seguinte:
+    
+  do {
+      
+  } while (<condição-lógica>);
+  

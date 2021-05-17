@@ -1,0 +1,34 @@
+
+VARIÁVEIS E TIPOS DE DADOS
+
+
+Introdução
+
+Na Informática, uma variável é um espaço na memória do computador utilizado para
+armazenar um determinado dado.
+  
+Todo dado possui um tipo. Os tipos atualmente utilizados no dia-a-dia são: textos,
+números e valores binários (sim/não, verdadeiro/falso, ligado/desligado).
+   
+Na Linguagem Java os tipos texto, número e valor binário são referenciados por 
+meio dos seguintes termos:
+    
+  dados textos     => char e String
+  dados numéricos  => byte, short, int, long, float e double
+  valores binários => boolean
+      
+Os dados numéricos podem ser divididos em números inteiros e números fracionários.
+  
+  números inteiros     => byte, short, int e long
+  números fracionários => float e double
+   
+  
+Usando variáveis na Linguagem Java
+
+As variáveis na Linguagem Java são tipadas, ou seja, é necessário informar o tipo
+do dado que será armazenado na variável.
+  
+Uma variável na Linguagem Java é definida da seguinte maneira:
+  
+    <tipo-dado> <nome-variável>;
+    

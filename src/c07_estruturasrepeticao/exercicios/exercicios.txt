@@ -1,0 +1,60 @@
+
+Estruturas de repetição - Exercícios
+----------------------------------------------------------------------------------------------------
+
+Exercício 01 (FOR) - Números Divisíveis por 3
+
+Utilizando a estrutura de repetição FOR, escreva um programa que mostre na tela os números divisíveis
+por 3 que estão entre os números de 0 e 100.
+
+
+Exercício 02 (FOR) - Tabuada de um número
+
+Utilizando a estrutura de repetição FOR, escreva um programa que solicite ao usuário um número inteiro
+e depois mostre na tela a tabuada do número informado no seguinte formato:
+
+  N x 1 = Y
+  N x 2 = Y
+  ...
+  N x 10 = Y
+  
+  onde:
+    N é o número informado pelo usuário
+    Y é o resultado da multiplicação 
+
+
+Exercício 03 (WHILE) - Números Ímpares
+
+Utilizando a estrutura de repetição WHILE, escreva um programa que mostre na tela todos os números 
+ímpares entre os números 0 e 100.
+
+
+Exercício 04 (WHILE) - Média Aritmética
+
+Utilizando a estrutura de repetição WHILE, escreva um programa que solicite ao usuário quatro números 
+inteiros e depois mostre na tela a média aritmética dos números informados.
+
+
+Exercício 05 (DO..WHILE) - Tabuada
+
+Reescreva o programa Tabuada (que utiliza a estrutura FOR) utilizando a estrutura de repetição 
+DO..WHILE.
+
+
+Exercício 06 (DO..WHILE) - Menu Lanchonete
+
+Escreva um programa que permita o usuário escolher vários itens do menu de lanches de uma lanchonete.
+O menu que o programa deve exibir esta abaixo:
+
+1 – X-Salada (5,30)
+2 – X-Bacon (6,00)
+3 – X-Egg (6,70)
+4 – Refrigerante (3,20)
+5 – Finalizar pedido
+Digite o código do lanche desejado:
+
+Observações:
+O programa deve permitir que o usuário escolha mais de um produto.
+A medida que o usuário vai escolhendo os itens, deve-se somar o valor dos itens escolhidos.
+Quando o usuário escolher a opção 5 (Finalizar pedido), o programa deverá mostrar na tela o total
+dos itens escolhidos pelo usuário. 

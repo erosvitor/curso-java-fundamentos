@@ -1,0 +1,13 @@
+
+MATRIZES
+
+
+Introdução
+
+Na Informática, matrizes são estruturas multidimensionais utilizadas para armazenar uma
+quantidade finita de dados do mesmo tipo.
+    
+Na Linguagem Java as matrizes são definidas da seguinte maneira:
+  
+  <tipo-dado> <nome-matriz>[][] = new <tipo-dado>[<qtde-linhas>][<qtde-colunas>];
+    

@@ -1,0 +1,46 @@
+
+ESTRUTURAS DE DECISÃO
+
+
+Introdução
+  
+Estruturas de decisão são blocos de comandos que permitem ao programa de computador executar
+ou não um determinado conjunto de comandos de acordo com o resultado de uma expressão lógica.
+  
+As estruturas de decisão disponíveis na Linguagem Java são:
+  
+  IF
+  SWITCH
+
+
+Estrutura de decisão 'IF'
+  
+A estrutura de decisão IF avalia expressões relacionais e lógicas para a tomada de decisão. A 
+Linguagem Java disponibiliza os seguintes operadores relacionais:
+  
+  igual           ( = )
+  não igual       ( != )
+  maior que       ( > )
+  menor que       ( < )
+  maior igual que ( >= )
+  menor igual que ( <= )
+    
+Além dos operadores relacionais, a Liguagem Java também oferece os seguintes operadores lógicos:
+    
+  e       ( && )
+  ou      ( || )
+  negação ( ! )
+  
+ 
+Estrutura de decisão 'SWITCH'
+
+A estrutura de decisão SWITCH avalia o conteúdo de uma variável e não o resultado de uma expressão 
+lógica. A variável precisa ser dos seguintes tipos: char, byte, short e int.
+
+Outra diferença em relação a estrutura IF é a facilidade de ler e entender o código quando é preciso
+avaliar muitas condições.
+  
+Até a versão 1.6 da Linguagem Java a estrutura de decisão 'switch' aceitava apenas 
+variáveis do tipo char, short e int. A partir da versão 1.7 é possível usar variáveis do
+tipo String.
+  
