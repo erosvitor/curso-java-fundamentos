@@ -1,0 +1,37 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - SAÍDA DE DADOS - EXERCÍCIOS
+====================================================================================================
+
+Exercício 01 - Dados do Curso
+----------------------------------------------------------------------------------------------------
+Escreva um programa que mostre na tela os dados do curso. Os dados que devem ser exibidos pelo 
+programa são os seguintes: Nome Curso, Duração, Período e Aluno. Cada informação deve ser mostrada 
+uma abaixo da outra.
+
+
+Exercício 02 - Resultado Expressão Aritmética
+----------------------------------------------------------------------------------------------------
+Escreva um programa que mostre na tela o resultado que será armazenado na variável x pela expressão 
+aritmética x = 1000 * (1,5 / 100) * 6.
+
+
+Exercício 03 - Relatório Tabular
+----------------------------------------------------------------------------------------------------
+Escreva um programa que mostre na tela o conteúdo abaixo na forma tabular.
+
+  Linguagem             Autor                Ano lançamento
+  =========================================================
+  Linguagem C           Dennis Ritchie       1972
+  Linguagem C++         Bjarne Stroustrup    1982
+  Linguagem Java        James Gosling        1991
+
+
+Exercício 04 - Juros Calculado
+----------------------------------------------------------------------------------------------------
+Considerando um capital de R$ 1.000,00, uma taxa de juros mensal de 10% e um período de 1 mês, 
+escreva um programa que armazene os dados acima em variáveis e depois produza a seguinte saída
+formatada.
+
+  O juros calculado sobre o capital de R$ 1000,00, durante 1 mês, com uma taxa de 10%, foi de R$ 100,00
+  

@@ -11,10 +11,14 @@ O projeto contempla teoria, exemplos, exercícios e respostas. É ideal para ser
 * Saída e entrada de dados
 * Estruturas de decisão
 * Estruturas de repetição
-* Vetores e Matrizes
-* Strings e Caracteres
-* Data e Hora
+* Vetores
+* Matrizes
+* Strings
+* Caracteres
 * Tratamento de exceções
+* Data e Hora
+* Arquivos textos
+* Sistema de arquivos
 
 ## Histórico de lançamentos
 

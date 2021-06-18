@@ -1,0 +1,74 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - ARQUIVOS TEXTOS
+====================================================================================================
+
+Introdução
+---------------------------------------------------------------------------------------------------- 
+Arquivos textos são arquivos que podem ser lidos e compreendidos facilmente por seres humanos. Não
+contém nenhuma codificação ou formatação em especial. 
+
+A Linguagem Java oferece as seguintes classes para manipulação de arquivos textos:
+
+- Path
+- Files
+- BufferedReader
+- BufferedWriter
+
+
+Escrevendo num arquivo
+---------------------------------------------------------------------------------------------------- 
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class EscrevendoArquivoTexto {
+
+  public static void main(String[] args) {
+   
+    Path path = Paths.get("/home/erosvitor/dadoscurso.txt");
+    
+    try (BufferedWriter writer = Files.newBufferedWriter(path)) {
+      writer.write("Linguagem Python\n");
+      writer.write("45 horas\n");
+      writer.write("Noite\n");
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  
+  }
+
+} 
+
+
+Lendo um arquivo
+---------------------------------------------------------------------------------------------------- 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class LendoArquivoTexto {
+
+  public static void main(String[] args) {
+   
+    Path path = Paths.get("/home/erosvitor/dadoscurso.txt");
+    
+    try (BufferedReader reader = Files.newBufferedReader(path)) {
+      String line;
+      while ( (line = reader.readLine()) != null) {
+        System.out.println(line);
+      }  
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  
+  }
+
+} 
+
+

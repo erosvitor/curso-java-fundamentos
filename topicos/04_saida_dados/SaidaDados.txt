@@ -1,15 +1,49 @@
 
-SAÍDA DE DADOS
-
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - SAÍDA DE DADOS
+====================================================================================================
 
 Introdução
-
-Saída de dados é a operação que consiste em mostrar dados ao usuário. Normalmente a saída
-de dados padrão é o monitor, mas pode ser um arquivo em disco ou um dispositivo conectado
-ao hardware onde o programa Java esta sendo executado.
+----------------------------------------------------------------------------------------------------
+Saída de dados é a operação que consiste em mostrar dados ao usuário. Normalmente a saída de dados
+padrão é o monitor, mas pode ser um arquivo em disco ou um dispositivo conectado ao hardware onde o
+programa Java esta sendo executado.
   
 A Linguagem Java disponibiliza os seguintes comandos para saída de dados:
   
   println - Exibe um dado e avança para a próxima linha
   print   - Exibe um dado e permanece na mesma linha
   printf  - Permite formatar o dado antes de exibir ao usuário
+
+
+Exemplo:
+
+public class SaidaDados {
+
+  public static void main(String[] args) {
+
+    // Mostrando um texto fixo
+    System.out.println("Comandos Saida de Dados");
+
+    // Mostrando o conteúdo de uma variável
+    float PI = 3.14159265f;
+    System.out.println(PI);
+
+    // Mesclando texto fixo com conteúdo de variável
+    System.out.println("O valor da constante PI é " + PI);
+
+    // Mostrando dados sem pular linha
+    System.out.print("Observe que");
+    System.out.print(" tudo será ");
+    System.out.print("mostrado na mesma linha");
+    System.out.print("\n");
+
+    // Formatando a saída dos dados
+    String linguagem = "Java";
+    short anoLancamento = 1995;
+    System.out.printf("A linguagem %s foi lançada em %d", linguagem, anoLancamento);
+    
+  }
+
+}
+

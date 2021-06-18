@@ -1,17 +1,18 @@
 
-VARIÁVEIS E TIPOS DE DADOS
-
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - VARIÁVEIS E TIPOS DE DADOS
+====================================================================================================
 
 Introdução
-
-Na Informática, uma variável é um espaço na memória do computador utilizado para
-armazenar um determinado dado.
+----------------------------------------------------------------------------------------------------
+Na Informática, uma variável é um espaço na memória do computador utilizado para armazenar um 
+determinado dado.
   
-Todo dado possui um tipo. Os tipos atualmente utilizados no dia-a-dia são: textos,
-números e valores binários (sim/não, verdadeiro/falso, ligado/desligado).
+Todo dado possui um tipo. Os tipos atualmente utilizados no dia-a-dia são: textos, números e valores
+binários (sim/não, verdadeiro/falso, ligado/desligado).
    
-Na Linguagem Java os tipos texto, número e valor binário são referenciados por 
-meio dos seguintes termos:
+Na Linguagem Java os tipos texto, número e valor binário são referenciados por meio dos seguintes 
+termos:
     
   dados textos     => char e String
   dados numéricos  => byte, short, int, long, float e double
@@ -24,11 +25,49 @@ Os dados numéricos podem ser divididos em números inteiros e números fracion�
    
   
 Usando variáveis na Linguagem Java
-
-As variáveis na Linguagem Java são tipadas, ou seja, é necessário informar o tipo
-do dado que será armazenado na variável.
+----------------------------------------------------------------------------------------------------
+As variáveis na Linguagem Java são tipadas, ou seja, é necessário informar o tipo do dado que será 
+armazenado na variável.
   
 Uma variável na Linguagem Java é definida da seguinte maneira:
   
     <tipo-dado> <nome-variável>;
-    
+
+
+Exemplo:
+
+public class VariaveisTiposDados {
+
+  public static void main(String[] args) {
+
+    byte b = 127;
+    short s = 32767;
+    int i = 2147483647;
+    long l = 3000000000l;
+    float f = 3.14159265f;
+    double d = 5000000.50;
+    char c = 'j';
+    boolean bl = true;
+
+    // A partir do Java 1.7 é possível usar o literal '_' para separar os dígitos em variáveis numéricas.
+    short s2 = 32_767;
+    int i2 = 2_147_483_647;
+    long l2 = 3_000_000_000l;
+    float f2 = 3.1415_9265f;
+    double d2 = 5_000_000.50;
+
+  }
+
+}
+
+
+Identificadores para variáveis
+----------------------------------------------------------------------------------------------------
+A definição de identificadores para variáveis deve seguir as regras abaixo:
+
+- Deve iniciar por uma letra, pelo caractere underscore (_) ou pelo caractere dolar ($)
+- Não pode iniciar por um dígito numérico
+- Não pode conter caracteres especiais, tipo sinais de pontuação, colchetes ou parênteses
+- Não pode conter espaços em branco para definir identificadores compostos
+- Nomes de variáveis são case-sensitive, ou seja, letras minusculas são diiferentes de maiúsculas
+

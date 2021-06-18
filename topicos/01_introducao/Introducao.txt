@@ -1,0 +1,77 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - INTRODUÇÃO
+====================================================================================================
+
+Conteúdo
+----------------------------------------------------------------------------------------------------
+- Java
+- Versões
+- JRE vs JDK
+- JCP
+- Ferramentas
+- Referências
+
+
+Java
+----------------------------------------------------------------------------------------------------
+- Linguagem de programação de uso geral
+- Compilada
+- Orientada a objetos
+- Concebida no inicio dos anos 90
+- Criada por James Gosling
+- Mantida pela Oracle Corporation
+
+
+Versões
+----------------------------------------------------------------------------------------------------
+- JDK 1.0, 1.1
+- J2SE 1.2, 1.3, 1.4, 5.0
+- Java SE 6, 7
+- Java SE 8 (LTS)
+- Java SE 9, 10
+- Java SE 11 (LTS)
+- Java SE 12, 13, 14, 15
+- Java SE 16
+
+
+LTS
+----------------------------------------------------------------------------------------------------
+- Long-Term Support
+- Política de gerenciamento do ciclo de vida do software
+- Versão estável é mantida por um longo período de tempo
+
+
+JRE vs JDK
+----------------------------------------------------------------------------------------------------
+- Java Runtime Environment
+  - Utilizado para executar programas Java
+- Java Development Kit
+  - Utilizado para desenvolver programas Java
+
+
+JCP
+----------------------------------------------------------------------------------------------------
+- Java Community Process
+- Coordena as mudanças na Linguagem Java
+- Propostas e Especificações estão nas JSRs (Java Specification Requests)
+- Site oficial
+  https://www.jcp.org/en/home/index
+
+
+Ferramentas
+----------------------------------------------------------------------------------------------------
+- Pacote JDK
+- IDE
+  - Eclipse
+  - Netbeans
+  - IntelliJ
+  - Spring Tools Suite
+
+
+Referências
+----------------------------------------------------------------------------------------------------
+- https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)
+- https://en.wikipedia.org/wiki/Java_(programming_language)
+- https://www.java.com/en/
+

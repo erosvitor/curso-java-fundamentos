@@ -1,11 +1,12 @@
 
-ESTRUTURAS DE DECISÃO
-
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - ESTRUTURAS DE DECISÃO
+====================================================================================================
 
 Introdução
-  
-Estruturas de decisão são blocos de comandos que permitem ao programa de computador executar
-ou não um determinado conjunto de comandos de acordo com o resultado de uma expressão lógica.
+----------------------------------------------------------------------------------------------------
+Estruturas de decisão são blocos de comandos que permitem ao programa de computador executar ou não
+um determinado conjunto de comandos de acordo com o resultado de uma expressão lógica.
   
 As estruturas de decisão disponíveis na Linguagem Java são:
   
@@ -30,8 +31,46 @@ Além dos operadores relacionais, a Liguagem Java também oferece os seguintes o
   e       ( && )
   ou      ( || )
   negação ( ! )
+
+
+Exemplo:
+
+public class EstruturaIF {
+
+  public static void main(String[] args) {
+
+    // Avaliando apenas o resultado positivo
+    // ----------------------------------------------------------------------------------------------------
+    short idade1 = 18;
+    if (idade1 >= 18) {
+      System.out.println("Maior de idade");
+    }
+
+    // Avaliando o resultado positivo e negativo
+    // ----------------------------------------------------------------------------------------------------
+    short idade2 = 17;
+    if (idade2 >= 18) {
+      System.out.println("Maior de idade");
+    } else {
+      System.out.println("Menor de idade");
+    }
+
+    // Avaliando mais de uma situação
+    // ----------------------------------------------------------------------------------------------------
+    short idade3 = 15;
+    if (idade3 >= 18) {
+      System.out.println("Maior de idade");
+    } else if (idade3 >= 16) {
+      System.out.println("Menor de idade e pode votar");
+    } else {
+      System.out.println("Menor de idade e não pode votar");
+    }
+
+  }
+
+}
+
   
- 
 Estrutura de decisão 'SWITCH'
 
 A estrutura de decisão SWITCH avalia o conteúdo de uma variável e não o resultado de uma expressão 
@@ -40,7 +79,53 @@ lógica. A variável precisa ser dos seguintes tipos: char, byte, short e int.
 Outra diferença em relação a estrutura IF é a facilidade de ler e entender o código quando é preciso
 avaliar muitas condições.
   
-Até a versão 1.6 da Linguagem Java a estrutura de decisão 'switch' aceitava apenas 
-variáveis do tipo char, short e int. A partir da versão 1.7 é possível usar variáveis do
-tipo String.
-  
+Até a versão 1.6 da Linguagem Java a estrutura de decisão 'switch' aceitava apenas variáveis do tipo
+char, short e int. A partir da versão 1.7 é possível usar variáveis do tipo String.
+
+
+Exemplo:
+
+public class EstruturaSwitch {
+
+  public static void main(String[] args) {
+
+    // Avaliando conteúdo de uma variável numérica
+    // ----------------------------------------------------------------------------------------------------
+    short itemCardapio = 2;
+    switch (itemCardapio) {
+      case 1:
+        System.out.println("Escolheu o item 1");
+        break;
+      case 2:
+        System.out.println("Escolheu o item 2");
+        break;
+      case 3:
+        System.out.println("Escolheu o item 3");
+        break;
+      default:
+        System.out.println("Item inexistente");
+        break;
+    }
+
+    // Avaliando conteúdo de uma variável String
+    // ----------------------------------------------------------------------------------------------------
+    String color = "blue";
+    switch (color) {
+      case "red":
+        System.out.println("Vermelho");
+        break;
+      case "green":
+        System.out.println("Verde");
+        break;
+      case "blue":
+        System.out.println("Azul");
+        break;
+      default:
+        System.out.println("Cor inválida");
+        break;
+    }
+
+  }
+
+}
+

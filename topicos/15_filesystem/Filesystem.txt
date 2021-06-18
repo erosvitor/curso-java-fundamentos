@@ -1,0 +1,98 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - FILESYSTEM
+====================================================================================================
+
+Introdução
+----------------------------------------------------------------------------------------------------
+O Filesystem, ou sistema de arquivos, é a estrutura utilizada pelos sistemas operacionais para
+organizar os dados armazenados em um meio de armazenamento de dados.
+
+
+Biblioteca OS
+----------------------------------------------------------------------------------------------------
+A Linguagem Java oferece o pacote 'java.nio' para manipular o sistema de arquivos. As principais
+operações disponíveis são:
+
+ - Criar
+ - Modificar
+ - Deletar
+
+
+Diretório atual
+----------------------------------------------------------------------------------------------------
+Para obter o diretório atual, deve-se utilizar a classe 'File' do pacote 'java.io'.
+
+import java.io.File;
+
+public class SepararEnderecosIP {
+
+  public static void main(String[] args) {
+
+    String diretorioAtual = new File("").getAbsolutePath(); 
+    System.out.println(diretorioAtual);
+  
+  }
+
+}
+
+
+Conteúdo diretório
+----------------------------------------------------------------------------------------------------
+Para obter o conteúdo de um determinado diretório, deve-se utilizar a classe 'DirectoryStream' do
+pacote 'java.nio'.
+
+import java.io.IOException;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class ConteudoDiretorio {
+
+  public static void main(String[] args) {
+
+    Path path = Paths.get("/home/erosvitor");
+    try (DirectoryStream<Path> conteudoDiretorio = Files.newDirectoryStream(path)) {
+      for (Path item : conteudoDiretorio) {
+        System.out.println(item.getFileName().toString());
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }  
+  
+  }
+
+}
+
+
+Manipulando diretórios
+----------------------------------------------------------------------------------------------------
+A classe 'Files' disponibiliza diversos métodos para criar, remover diretórios.
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class ManipularDiretorios {
+
+  public static void main(String[] args) {
+
+    try {
+      Path novoDiretorio = Paths.get("/home/erosvitor/novo_diretorio");
+      Files.createDirectory(novoDiretorio);
+      
+      Path novosDiretorios = Paths.get("/home/erosvitor/novo_diretorio/docs/financeiro");
+      Files.createDirectories(novosDiretorios);
+      
+      Path deleteDiretorio = Paths.get("/home/erosvitor/novo_diretorio/docs/financeiro");
+      Files.delete(deleteDiretorio);
+    } catch (IOException e) {
+      System.err.println("Failed to create directory!" + e.getMessage());
+    }
+  
+  }
+
+}
+

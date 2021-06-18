@@ -1,0 +1,38 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - ESTRUTURAS DE DECISÃO - EXERCÍCIOS
+====================================================================================================
+
+Exercício 01 (IF) - Par ou Ímpar
+----------------------------------------------------------------------------------------------------
+Escreva um programa que leia um número inteiro e depois mostre na tela se o número é par ou ímpar.
+
+
+Exercício 02 (IF) - Situação Escolar Aluno
+----------------------------------------------------------------------------------------------------
+Escreva um programa que mostre a situação escolar de um determinado aluno. O programa deverá 
+solicitar ao usuário quatro notas bimestrais e depois mostrar se o aluno foi aprovado, reprovado ou 
+recuperação. Se média for igual ou maior do que 70.0, mostrar APROVADO. Se a média for igual ou maior 
+do que 40.0, mostrar EM RECUPERAÇÃO. Caso seja menor do que 40.0, mostrar REPROVADO.
+
+
+Exercício 03 (SWITCH) - Dia da Semana por Extenso
+----------------------------------------------------------------------------------------------------
+Escreva um programa que solicite um dia da semana (entre 1 a 7) e depois mostre o nome por extenso do 
+dia informado. Caso o usuário informe um dia inválido, o programa deverá mostrar uma mensagem 
+informando que o dia é inválido. Por exemplo, o usuário digitou o dia da semana 1, o programa deverá 
+mostrar na tela 'Domingo'.
+
+
+Exercício 04 (SWITCH) - Menu Lanchonete
+----------------------------------------------------------------------------------------------------
+Escreva um programa que permita o usuário escolher um produto de um menu de lanches de uma lanchonete. 
+Após o usuário selecionar o item, o programa deve mostrar na tela qual foi o item selecionado pelo
+usuário. O menu de lanches que deve ser exibido pelo programa é o seguinte:
+
+1 – X-Salada
+2 – X-Bacon
+3 – X-Egg
+4 – Refrigerante
+5 – Finalizar pedido
+

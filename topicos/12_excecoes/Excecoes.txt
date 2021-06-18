@@ -1,0 +1,94 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - EXCEÇÕES
+====================================================================================================
+
+Introdução
+---------------------------------------------------------------------------------------------------- 
+Uma exceção é um comportamento inexperado que ocorre durante a execução de um programa de computador
+quando algo não planejado ocorre.
+
+Possíveis causas de exceções:
+- Entrada de dados inválida
+- Conversão de dados inválida
+- Manipulação de arquivos inexistentes
+- Falta de permissão para escrever em diretório
+- Queda servidor do banco de dados 
+
+
+Tratando exceções
+---------------------------------------------------------------------------------------------------- 
+A Linguagem Java disponibiliza o bloco de comando 'try..catch' para capturar e tratar exceções.
+
+Sintaxe:
+
+  try {
+    <comandos>
+  } catch (<exception>) {
+    <tratamento-excecao>
+  } 
+
+
+Exemplo:
+
+String numeroStr = "aa";
+try {
+  int numero = Integer.parseInt(numeroStr);
+} catch (Exception e) {
+  System.out.println("Número inválido");
+}
+
+
+Tratando exceções específicas
+---------------------------------------------------------------------------------------------------- 
+Durante a execução de um bloco de comandos é possível que ocorre mais de uma exceção. Para tratar de
+forma específica uma determinada exceção é necessário informar o nome da exceção após o comando
+'except'.
+
+Exceções mais conhecidas:
+- NumberFormatException: ocorre na conversão de dados
+- ZeroDivisionError: ocorre quando o divisor é igual a ZERO
+- NameError: ocorre quando uma variável não inicializada é utilizada
+
+
+String n1 = "aa";
+int n2 = 0;
+
+try {
+  float resultado = Integer.parseInt(n1) / n2;
+} catch (NumberFormatException e) {
+  System.out.println("Número inválido");
+}
+
+
+Tratando múltiplas exceções
+---------------------------------------------------------------------------------------------------- 
+
+String n1 = "10";
+int n2 = 0;
+
+try {
+  float resultado = Integer.parseInt(n1) / n2;
+} catch (NumberFormatException e) {
+  System.out.println("Número inválido");
+} catch (ArithmeticException e) {
+  System.out.println("Divisor não pode ser zero");
+}
+
+
+Bloco Finally
+---------------------------------------------------------------------------------------------------- 
+Muitas vezes precisamos que um determinado bloco de comandos seja executado independente se ocorreu
+ou não uma exceção. Este bloco é o 'finally'
+
+
+String salarioStr = "aa";
+
+try {
+  float salario = Float.parseFloat(salarioStr);
+} catch (NumberFormatException e) {
+  System.out.println("Valor inválido");
+} finally {
+  System.out.println("Este comando sempre será executado");
+}
+

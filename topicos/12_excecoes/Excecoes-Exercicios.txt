@@ -1,0 +1,21 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - EXCEÇÕES - EXERCÍCIOS
+====================================================================================================
+
+Exercício 01 - Calcular Área Figuras
+---------------------------------------------------------------------------------------------------- 
+Escrever um programa que permita ao usuário realiizar cálculos de áreas de figuras planas.
+
+Instruções:
+
+- O programa deve exibir um menu contendo as seguintes opções:
+  
+  1 - Calcular área quadrado
+  2 - Calcular área triangulo
+  3 - Finalizar
+
+- O programa deve ficar em loop até o usuário escolher a opção 3
+
+- Utilizar tratamento de exceção para evitar que o programa trave quando o usuário informar um dado
+  incorreto

@@ -1,0 +1,18 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - DATA E HORA - EXERCÍCIOS
+====================================================================================================
+
+Exercício 01 - Dia da Semana
+----------------------------------------------------------------------------------------------------
+Criar um programa que solicite a data de nascimento do usuário e mostre na tela em qual dia da semana
+ele nasceu.
+
+
+Exercício 02 - Parcelamento
+----------------------------------------------------------------------------------------------------
+Criar um programa que faça o parcelamento de uma compra. O programa deverá armazenar a data atual,
+deverá solicitar ao usuário o valor da compra e em quantas vezes ele deseja parcelar. O número de
+parcelas deve estar entre 2 e 5. O programa deve mostrar na tela o valor da compra conforme a 
+quantidade de parcelas e também as datas de pagamento. Para cada parcela, deve-se adicionar 30 dias
+na data atual.

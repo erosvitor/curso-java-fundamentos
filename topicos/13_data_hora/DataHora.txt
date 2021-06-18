@@ -1,0 +1,42 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - DATA E HORA
+====================================================================================================
+
+Introdução
+---------------------------------------------------------------------------------------------------- 
+A Linguagem Java provê suporte a data e hora através do pacote 'java.time'.
+
+
+Utilizando data e hora
+----------------------------------------------------------------------------------------------------
+
+// Exibindo a data e hora atual
+LocalDateTime data1 = LocalDateTime.now();
+System.out.println(data1);
+
+// Formatando a data e hora atual
+LocalDateTime data2 = LocalDateTime.now();
+System.out.println(data2.format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")));
+
+// Criando uma data e hora específica
+String data3Str = "01/01/1995 12:30:00";
+LocalDate data3 = LocalDate.parse(dataEspecificaStr, DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss"));
+System.out.println(data3);
+
+// Manipulando uma data
+LocalDateTime data4 = LocalDateTime.now();
+data4 = data4.plusDays(3);
+System.out.println(data4);
+data4 = data4.plusMonths(2);
+System.out.println(data4);
+
+// Extraindo dados de uma data
+LocalDateTime data5 = LocalDateTime.now();
+int diaDaSemana = data5.getDayOfWeek().getValue();
+int diaDoMes = data5.getDayOfMonth();
+int mes = data5.getMonthValue();
+int ano = data5.getYear();
+
+System.out.printf("Dia da semana: %d, dia: %d, mês: %d, ano: %d", diaDaSemana, diaDoMes, mes, ano);
+

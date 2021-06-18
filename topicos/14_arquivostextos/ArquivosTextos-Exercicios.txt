@@ -1,0 +1,64 @@
+
+====================================================================================================
+CURSO FUNDAMENTOS JAVA - ARQUIVOS TEXTOS - EXERCÍCIOS
+====================================================================================================
+
+Exercício 01 - Separar Endereços IP
+----------------------------------------------------------------------------------------------------
+Dado um arquivo texto contendo diversos endereços IP, escrever um programa que separe os IPs em 
+outros três arquivos textos, uma para cada classe de IP.
+
+A separação dos endereços IP deve seguir a seguinte classificação:
+
+Classe  Faixa de Endereços
+A       0.0.0.1 até 126.255.255.255
+B       128.0.0.0 até 191.255.255.255
+C       192.0.0.0 até 223.255.255.255
+
+
+Obs: Criar um arquivo texto contento os endereços IP abaixo listados.
+
+28.210.169.118
+227.95.158.142
+10.247.42.216
+208.57.6.208
+54.28.82.22
+251.215.224.134
+177.82.47.71
+240.124.246.138
+89.251.17.131
+46.86.46.134
+148.201.136.245
+37.21.239.183
+103.166.51.140
+245.185.46.25
+214.214.176.232
+244.53.187.133
+158.83.34.203
+231.72.168.8
+147.92.181.84
+189.89.157.132
+
+
+Exercício 02 - Gerar Lista de Emails
+----------------------------------------------------------------------------------------------------
+Dado um arquivo texto contendo dados de clientes, escrever um programa que extrai o endereço de email
+e gere um segundo arquivo contendo apenas os emails.
+
+Obs1: Os emails devem ser armazenados no novo arquivo sem espaços em branco no inicio e também sem as
+aspas simples.
+
+Obs2: Criar um arquivo texto contendo os seguintes dados de clientes:
+
+'Beltrano Cunha', '41-988771212', 'beltrano@gmail.com', '1975/10/12', 'M'
+'Siclano Pereira', '41-34346789', 'siclanopereira@yahoo.com.br', '1978/06/20', 'M'
+'Fulano da Silva', '41-989983221', 'fulanosil@gmail.com', '1982/01/25', 'M'
+'Acrópolis da Penha', '41-997970101', 'acropolispenha@hotmail.com', '1981/12/02', 'M'
+'Mitrus Gonçalves', '41-34560303', 'mitrusgon@yahoo.com.br', '1977/11/05', 'M'
+'Bino Alvarenga', '41-988019902', 'binoalv@gmail.com', '1981/04/12', 'M'
+'Goman da Silva', '41-997790506', 'gomansilva@yahoo.com.br', '1983/07/21', 'M'
+'Sincom Gomes', '41-981125654', 'sincomg@gmail.com', '1981/09/06', 'M'
+'Beltrana Gomes da Silva', '41-981125654', 'beltranasilva@gmail.com', '1979/10/15', 'F'
+'Siclana Pinheiro', '41-32334554', 'siclanapi@hotmail.com', '1979/10/15', 'F'
+'Fulana Pedrosa', '41-981125654', 'fulanapedrosa@yahoo.com.br', '1980/12/03', 'F'
+
