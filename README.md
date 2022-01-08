@@ -1,5 +1,5 @@
 ## Sobre
-O projeto é um curso que ensina os fundamentos da linguagem Java.
+O projeto contém tópicos sobre os fundamentos da linguagem Java.
 
 ## Conteúdo do curso
 * Váriáveis e Tipos e dados
