@@ -1,5 +1,3 @@
-package c04_saidadados.exercicios;
-
 public class DadosDoCurso {
 
   public static void main(String[] args) {

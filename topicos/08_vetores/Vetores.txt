@@ -5,7 +5,6 @@ CURSO FUNDAMENTOS JAVA - VETORES
 
 Introdução
 ---------------------------------------------------------------------------------------------------- 
-  
 Na Informática, vetores são estruturas unidimensionais utilizadas para armazenar uma quantidade
 finita de dados do mesmo tipo.
     

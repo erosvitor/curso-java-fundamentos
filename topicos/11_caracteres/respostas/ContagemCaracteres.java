@@ -1,5 +1,3 @@
-package c11_caracteres.exercicios;
-
 import java.util.Scanner;
 
 public class ContagemCaracteres {

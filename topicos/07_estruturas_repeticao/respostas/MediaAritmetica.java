@@ -1,5 +1,3 @@
-package c07_estruturasrepeticao.exercicios;
-
 import java.util.Scanner;
 
 public class MediaAritmetica {

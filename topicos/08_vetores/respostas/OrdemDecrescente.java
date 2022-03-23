@@ -1,5 +1,3 @@
-package c08_vetores.exercicios;
-
 public class OrdemDecrescente {
 
   public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package c10_strings.exercicios;
-
 import java.util.Scanner;
 
 public class PrimeiroNome {

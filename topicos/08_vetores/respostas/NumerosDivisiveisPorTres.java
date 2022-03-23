@@ -1,5 +1,3 @@
-package c08_vetores.exercicios;
-
 public class NumerosDivisiveisPorTres {
 
   public static void main(String[] args) {

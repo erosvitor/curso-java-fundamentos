@@ -1,5 +1,3 @@
-package c06_estruturasdecisao.exercicios;
-
 import java.util.Scanner;
 
 public class ParOuImpar {

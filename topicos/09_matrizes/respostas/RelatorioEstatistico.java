@@ -1,5 +1,3 @@
-package c09_matrizes.exercicios;
-
 public class RelatorioEstatistico {
 
   public static void main(String[] args) {

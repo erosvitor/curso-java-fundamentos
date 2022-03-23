@@ -1,5 +1,3 @@
-package c09_matrizes.exercicios;
-
 import java.util.Scanner;
 
 public class PessoaMaisVelha {

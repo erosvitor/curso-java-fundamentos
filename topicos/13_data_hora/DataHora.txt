@@ -21,7 +21,7 @@ System.out.println(data2.format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss
 
 // Criando uma data e hora específica
 String data3Str = "01/01/1995 12:30:00";
-LocalDate data3 = LocalDate.parse(dataEspecificaStr, DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss"));
+LocalDate data3 = LocalDate.parse(data3Str, DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss"));
 System.out.println(data3);
 
 // Manipulando uma data

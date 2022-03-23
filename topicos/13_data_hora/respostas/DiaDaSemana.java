@@ -1,5 +1,3 @@
-package c12_data_hora.exercicios;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;

@@ -1,5 +1,3 @@
-package c04_saidadados.exercicios;
-
 public class RelatorioTabular {
 
   public static void main(String[] args) {

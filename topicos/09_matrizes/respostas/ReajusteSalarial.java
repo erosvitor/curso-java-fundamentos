@@ -1,5 +1,3 @@
-package c09_matrizes.exercicios;
-
 public class ReajusteSalarial {
 
   public static void main(String[] args) {

@@ -43,7 +43,7 @@ System.out.println(str3);
 // Comparando strings
 String str4 = "Java";
 String str5 = "Javascript";
-if (str4.equals(str4)) {
+if (str4.equals(str5)) {
   System.out.println("São iguais");
 } else {
   System.out.println("Não são iguais");

@@ -1,5 +1,3 @@
-package c05_entradadados.exercicios;
-
 import java.util.Scanner;
 
 public class CalcularJurosSimples {

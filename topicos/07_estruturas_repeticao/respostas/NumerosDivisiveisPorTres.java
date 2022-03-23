@@ -1,5 +1,3 @@
-package c07_estruturasrepeticao.exercicios;
-
 public class NumerosDivisiveisPorTres {
 
   public static void main(String[] args) {

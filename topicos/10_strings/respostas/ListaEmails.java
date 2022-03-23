@@ -1,5 +1,3 @@
-package c10_strings.exercicios;
-
 public class ListaEmails {
 
   public static void main(String[] args) {

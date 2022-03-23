@@ -1,5 +1,3 @@
-package c08_vetores.exercicios;
-
 import java.util.Scanner;
 
 public class ValorMedio {
