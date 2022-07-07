@@ -36,7 +36,7 @@ R: Espaço na memória do computador para armazenar dados.
 
 Exercício 04
 ----------------------------------------------------------------------------------------------------
-Quais os tipos de dados primitivos da linguagem Java?
+A tipagem de dados na Linguagem Java é estática ou dinâmica?
 
-R: char, byte, short, int, long, float, double e boolean
+R: Tipagem estática
 

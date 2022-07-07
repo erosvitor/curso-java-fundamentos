@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class SituacaoEscolarAluno {
 
   public static void main(String[] args) {
+    Scanner leitura = new Scanner(System.in);
+
     System.out.println("Verificar a situção escolar de um aluno");
     System.out.println("");
-    
-    Scanner leitura = new Scanner(System.in);
-    
+   
     System.out.print("Digite a nota do primeiro bimestre: ");
     float nota1 = leitura.nextInt();
 

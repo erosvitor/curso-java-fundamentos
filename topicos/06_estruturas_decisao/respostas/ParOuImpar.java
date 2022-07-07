@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class ParOuImpar {
 
   public static void main(String[] args) {
+    Scanner leitura = new Scanner(System.in);
+
     System.out.println("Verificar se um número é par ou ímpar");
     System.out.println("");
-    
-    Scanner leitura = new Scanner(System.in);
     
     System.out.print("Digite um número inteiro maior que zero: ");
     int numero = leitura.nextInt();

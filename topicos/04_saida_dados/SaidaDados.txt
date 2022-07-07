@@ -11,8 +11,8 @@ programa Java esta sendo executado.
   
 A Linguagem Java disponibiliza os seguintes comandos para saída de dados:
   
-  println - Exibe um dado e avança para a próxima linha
   print   - Exibe um dado e permanece na mesma linha
+  println - Exibe um dado e avança para a próxima linha
   printf  - Permite formatar o dado antes de exibir ao usuário
 
 

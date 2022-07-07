@@ -27,3 +27,4 @@ Exercício 04 - Valor Médio
 ----------------------------------------------------------------------------------------------------
 Escreva um programa que armazene 5 valores num vetor e depois mostre na tela o valor médio informado.
 Os valores devem ser informados pelo usuário.
+

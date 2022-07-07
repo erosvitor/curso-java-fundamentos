@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoginInvalido {
+public class LoginValido {
 
   public static void main(String[] args) {
     System.out.println("Login");

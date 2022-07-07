@@ -5,60 +5,40 @@ CURSO FUNDAMENTOS JAVA - VARIÁVEIS E TIPOS DE DADOS
 
 Introdução
 ----------------------------------------------------------------------------------------------------
-Na Informática, uma variável é um espaço na memória do computador utilizado para armazenar um 
-determinado dado.
-  
-Todo dado possui um tipo. Os tipos atualmente utilizados no dia-a-dia são: textos, números e valores
-binários (sim/não, verdadeiro/falso, ligado/desligado).
-   
-Na Linguagem Java os tipos texto, número e valor binário são referenciados por meio dos seguintes 
-termos:
-    
-  dados textos     => char e String
-  dados numéricos  => byte, short, int, long, float e double
-  valores binários => boolean
-      
-Os dados numéricos podem ser divididos em números inteiros e números fracionários.
-  
-  números inteiros     => byte, short, int e long
-  números fracionários => float e double
-   
-  
-Usando variáveis na Linguagem Java
-----------------------------------------------------------------------------------------------------
-As variáveis na Linguagem Java são tipadas, ou seja, é necessário informar o tipo do dado que será 
-armazenado na variável.
-  
-Uma variável na Linguagem Java é definida da seguinte maneira:
-  
-    <tipo-dado> <nome-variável>;
+Um programa de computador é constituído de três partes: entradas, processamento e saídas. As
+entradas são dados que o programa utiliza para executar uma determinada tarefa. Estes dados podem
+ser textos, números ou valores binários (sim/não, verdadeiro/falso, ligado/desligado).
 
+Os dados precisam ser armazenados para depois serem utilizados no processamento da tarefa. O local
+onde os dados são armazenados recebe o nome de variável.
+
+
+Tipos de dados na linguagem Java
+----------------------------------------------------------------------------------------------------
+A linguagem Java é uma linguagem de tipagem estática, ou seja, o tipo do dado será definido na 
+declaração da variável.
+
+A linguagem Java utiliza os seguintes termos para definir o tipo de dado da variável:
+
+  String, char			-> para dados do tipo texto
+  byte, short, int, long	-> para dados do tipo número inteiro
+  float, double		-> para dados do tipo número fracionário
+  boolean			-> para dados do tipo binário
+  
+  
+Utilizando variáveis na linguagem Java
+----------------------------------------------------------------------------------------------------
+Para utilizar uma variável é preciso declará-la primeiramente. Na linguagem Java uma variável é
+declarada da seguinte maneira:
+
+    <tipo-dado> <identificador> = <dado>;
+
+O 'identificador' é um nome arbitrário dado a variável. O 'dado' é o conteúdo que a variável irá
+armazenar.
 
 Exemplo:
 
-public class VariaveisTiposDados {
-
-  public static void main(String[] args) {
-
-    byte b = 127;
-    short s = 32767;
-    int i = 2147483647;
-    long l = 3000000000l;
-    float f = 3.14159265f;
-    double d = 5000000.50;
-    char c = 'j';
-    boolean bl = true;
-
-    // A partir do Java 1.7 é possível usar o literal '_' para separar os dígitos em variáveis numéricas.
-    short s2 = 32_767;
-    int i2 = 2_147_483_647;
-    long l2 = 3_000_000_000l;
-    float f2 = 3.1415_9265f;
-    double d2 = 5_000_000.50;
-
-  }
-
-}
+    short idade = 18;
 
 
 Identificadores para variáveis
@@ -70,4 +50,48 @@ A definição de identificadores para variáveis deve seguir as regras abaixo:
 - Não pode conter caracteres especiais, tipo sinais de pontuação, colchetes ou parênteses
 - Não pode conter espaços em branco para definir identificadores compostos
 - Nomes de variáveis são case-sensitive, ou seja, letras minusculas são diiferentes de maiúsculas
+
+
+Verificando o tipo da variável
+----------------------------------------------------------------------------------------------------
+A linguagem Java não disponibiliza um comando específico que mostre o tipo da variável. Para tanto,
+é necessário fazer typecast da variável para Object e utilizar o método getSimpleName() como mostra
+o exemplo abaixo.
+
+public class TipoDaVariavel {
+
+  public static void main(String[] args) {
+
+    byte a = 5;
+    System.out.println(((Object)a).getClass().getSimpleName());
+
+    float b = 3.14f;
+    System.out.println(((Object)b).getClass().getSimpleName());
+
+    String c = "Java";
+    System.out.println(((Object)c).getClass().getSimpleName());
+
+  }
+
+}
+
+
+Constantes
+----------------------------------------------------------------------------------------------------
+Na linguagem Java é utilizado a palavra chave 'final' para definir uma constante.
+
+public class Constantes {
+
+  public static void main(String[] args) {
+
+    final float PI = 3.1415f;
+    System.out.println(PI);
+
+    final short FILE_SIZE_LIMIT = 2000;
+    System.out.println(FILE_SIZE_LIMIT);
+
+  }
+
+}
+
 

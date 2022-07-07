@@ -54,8 +54,4 @@ if (Character.isDigit(c))
 if (Character.isWhitespace(c))
   System.out.println("  É um caractere de espaço");
 
-// Transformação de caracteres
-char charUpper = 'J';
-char charLower = Character.toLowerCase(charUpper);
-System.out.println(charLower);
 

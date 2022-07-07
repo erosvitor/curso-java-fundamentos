@@ -3,11 +3,10 @@ import java.util.Scanner;
 public class MenuLanchonete {
 
   public static void main(String[] args) {
+    Scanner leitura = new Scanner(System.in);
+
     System.out.println("Menu lanchonete");
     System.out.println("");
-    
-    Scanner leitura = new Scanner(System.in);
-    
     System.out.println("1 – X-Salada");
     System.out.println("2 – X-Bacon");
     System.out.println("3 – X-Egg");

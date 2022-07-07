@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class CalculoAreaTriangulo {
+public class CalcularAreaTriangulo {
 
   public static void main(String[] args) {
-    System.out.println("Cálculo da área de um triângulo");
+    System.out.println("Calcular área de um triângulo");
     System.out.println("");
     
     Scanner leitura = new Scanner(System.in);

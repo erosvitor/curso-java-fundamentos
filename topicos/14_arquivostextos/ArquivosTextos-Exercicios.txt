@@ -16,7 +16,7 @@ B       128.0.0.0 até 191.255.255.255
 C       192.0.0.0 até 223.255.255.255
 
 
-Obs: Criar um arquivo texto contento os endereços IP abaixo listados.
+Obs: Armazenar os endereços abaixo num arquivo chamado 'enderecosip.txt'.
 
 28.210.169.118
 227.95.158.142
@@ -48,7 +48,7 @@ e gere um segundo arquivo contendo apenas os emails.
 Obs1: Os emails devem ser armazenados no novo arquivo sem espaços em branco no inicio e também sem as
 aspas simples.
 
-Obs2: Criar um arquivo texto contendo os seguintes dados de clientes:
+Obs2: Armazenar os dados abaixo num arquivo chamado 'clientes.txt'
 
 'Beltrano Cunha', '41-988771212', 'beltrano@gmail.com', '1975/10/12', 'M'
 'Siclano Pereira', '41-34346789', 'siclanopereira@yahoo.com.br', '1978/06/20', 'M'
